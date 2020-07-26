@@ -1,6 +1,6 @@
 // James N's command-line todo list app! -- fileMgr.h
 
-#define fileMgr_ver 1.0
+#define fileMgr_ver 1.1
 #include <string>
 
 #define FILE_READ_ERROR 20

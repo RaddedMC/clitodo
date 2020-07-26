@@ -47,7 +47,7 @@ void writeFile(const string location, const string text) {
 
 string getTDFileLocation() {
 	string location = getenv("HOME");
-	location.append("/.clitodo-listfile-DONOTEDIT");
+	location.append("/.clitodo-listfile");
 	return location;
 }
 
