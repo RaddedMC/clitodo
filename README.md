@@ -9,6 +9,9 @@ clitodo -m #startdex #enddex   -- Moves an item
 clitodo -e #index "CONTENTS" "DATE" -- Changes the contents or due date of an item
 clitodo -h   -- Pulls up this help screen
 
+Note for users updating from fileMgr 1.0 to 1.1:
+I changed the location of the listfile -- so your lists will all disappear unless you rename the file at ~/.clitodo-listfileDONOTEDIT to ~/.clitodo-listfile
+
 Installation:
 Install gcc if you haven't already.
 Run sh compile.sh
